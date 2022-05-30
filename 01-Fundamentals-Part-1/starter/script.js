@@ -33,6 +33,7 @@ console.log(typeof null);
 
 // let, const, and var
 
+/*
 let age = 30;
 age = 31;
 
@@ -44,3 +45,12 @@ job = "manager";
 
 lastName = 'Patel';
 console.log(lastName);
+*/
+
+// Operators
+const now = 2037;
+const ageHimanshu = now - 1986;
+const ageArya = 2037 - 2018;
+console.log(ageHimanshu, ageArya);
+
+
