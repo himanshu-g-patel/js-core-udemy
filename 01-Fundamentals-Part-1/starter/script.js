@@ -48,9 +48,45 @@ console.log(lastName);
 */
 
 // Operators
+
+// Math operators
+
+/*
 const now = 2037;
 const ageHimanshu = now - 1986;
 const ageArya = 2037 - 2018;
 console.log(ageHimanshu, ageArya);
+console.log(ageHimanshu * 2, ageArya / 10, 2 ** 3);
+
+const firstName = "Himanshu";
+const lastName = "Patel";
+console.log(firstName + " " + lastName);
+
+*/
+
+// Assignment Operators
+
+/*
+let x = 10 + 5;
+x += 5;
+x++;
+x--;
+console.log(x);
+*/
+//Comparison Operators
+
+/*
+console.log(ageHimanshu > ageArya);
+console.log(ageArya >= 18);
+const isFullAge = ageArya >= 18;
+console.log(isFullAge);
+console.log(now - 20 >= now - 30);
+*/
+// Operator Precedence
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+
 
 
