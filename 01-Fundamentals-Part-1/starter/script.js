@@ -88,5 +88,11 @@ let x, y;
 x = y = 25 - 10 - 5;
 console.log(x, y);
 
+const now = 2037;
+const ageHimanshu = now - 1986;
+const ageArya = 2037 - 2018;
+const averageAge = (ageArya + ageHimanshu) / 2;
+console.log("Average Age is: " + averageAge);
+
 
 
